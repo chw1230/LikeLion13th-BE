@@ -6,7 +6,8 @@ build/
 !**/src/test/**/build/
 
 ### .yml ###
-*.yml
+.yml
+!.github/workflows/*.yml
 
 ### STS ###
 .apt_generated
