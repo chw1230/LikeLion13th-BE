@@ -8,4 +8,4 @@ ARG JAR_FILE=build/libs/*.jar
 COPY ${JAR_FILE} likelion.jar
 
 # 엔트리포인트 설정
-ENTRYPOINT ["java","-jar","/{jar 이름}"]
+ENTRYPOINT ["java","-jar","/likelion.jar"]
