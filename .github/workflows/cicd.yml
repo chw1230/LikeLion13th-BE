@@ -8,7 +8,7 @@ on:
       - feat/#87
 
 env:
-  DOCKER_IMAGE_NAME: developerchoi/likelion
+  DOCKER_IMAGE_NAME: chw1230/likelion
   EC2_HOST: ${{ secrets.EC2_URL }}
   EC2_SSH_USER: ubuntu
   PRIVATE_KEY: ${{ secrets.EC2_SSH_PRIVATE_KEY }}
